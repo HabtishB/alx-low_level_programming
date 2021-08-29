@@ -9,12 +9,12 @@
 int main(void)
 {
 int d = 48;
-char h = 'A';
+char h = 'a';
 for (; d <= 57; d++)
 {
 putchar(d);
 }
-for (; h <= 'F'; h++)
+for (; h <= 'f'; h++)
 putchar(h);
 putchar(10);
 return (0);
