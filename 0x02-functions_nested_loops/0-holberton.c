@@ -11,8 +11,8 @@ char word[9] = "Holberton";
 {
 int i = 0;
 for (; i < 9; i++)
-_putchar(word[i]);
+putchar(word[i]);
 }
-_putchar(10);
+putchar(10);
 return (0);
 }
