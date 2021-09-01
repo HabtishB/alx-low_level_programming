@@ -11,7 +11,7 @@ int hrs = 0;
 int mins = 0;
 while (hrs < 24)
 {
-for (mins; mins < 60; mins++)
+for (; mins < 60; mins++)
 {
 _putchar('0' + (hrs / 10));
 _putchar('0' + (hrs % 10));
