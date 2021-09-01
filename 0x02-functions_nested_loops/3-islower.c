@@ -3,11 +3,11 @@
  *_islower-changes all the alphabets into lower case
  *
  *Return: always returns zero
- */
+*/
 
 int _islower(int c)
 {
-if (c > 96 || c < 123)
+if (c >= 'a' || c <='z')
 return (1);
 else
 return (0);
