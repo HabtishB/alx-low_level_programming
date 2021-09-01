@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "_putchar.c"
 /**
  * main-this defines what the function is about c
  *
