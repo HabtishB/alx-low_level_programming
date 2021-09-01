@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- *_islower-changes all the alphabets into lower case
+ * _islower-changes all the alphabets into lower case
  *
- *Return: always returns zero
+ * Return: always returns zero
 */
 
 int _islower(int c)
