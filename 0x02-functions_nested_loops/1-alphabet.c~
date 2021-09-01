@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <stdlib.h>
+void print_alphabet(void);
+/**
+ *main-check the code for ALX students
+ * #include "holberton.h"
+ *Return: always returns zero
+ */
+
+int main(void)
+{
+print_alphabet();
+return (0);
+}
+
+void print_alphabet(void)
+{
+char a = 'a';
+for ( ; a < 'z'; a++ )
+putchar(a);
+putchar(10);
+
+}
