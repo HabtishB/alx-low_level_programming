@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 /**
  *main-check the code for ALX students
  *
@@ -8,7 +8,7 @@
 void print_alphabet(void)
 {
 char a = 'a';
-for ( ; a < 'z'; a++ )
-putchar(a);
-putchar(10);
+for (; a < 'z'; a++)
+_putchar(a);
+_putchar('\n');
 }
