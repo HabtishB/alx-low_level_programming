@@ -1,27 +1,15 @@
-#include "holberton.h"
 #include "main.h"
 /**
- *main-check the code for ALX students
+ * _isalpha- checks whether the letter is an alphabet or not
+ *@c: integer value
  *
  *Return: always returns zero
  */
 
 int _isalpha(int c)
 {
-char a = 'a';
-char A = 'A';
-for ( ; a < 'z'; a++)
-  {
-    if (c == a)
-      return (1);
-    else
-      return (0);
-  }
-for ( ; A <= 'Z'; A++)
-  {
-    if (c == A)
-      return (1);
-    else
-      return (0);
-  }
- }
+if ((c >= 65 && c <= 90) || (c >= 97 && c <= 122))
+return (1);
+else
+return (0);
+}
