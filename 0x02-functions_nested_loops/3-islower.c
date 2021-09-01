@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * _islower-changes all the alphabets into lower case
- *
+ * _islower- changes all the alphabets into lower case
+ *@c : integer value
  * Return: always returns zero
 */
 
