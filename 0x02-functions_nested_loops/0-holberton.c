@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <main.h>
+#include "main.h"
 /**
  * main-this defines what the function is about c
  *
