@@ -13,6 +13,6 @@ for (char a = 'a'; a <= z; a++)
 {
 _putchar(a);
 }
-putchar(10);
+_putchar('\n');
 }
 }
