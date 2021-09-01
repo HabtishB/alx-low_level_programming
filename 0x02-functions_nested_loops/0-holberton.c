@@ -10,7 +10,8 @@ int main(void)
 {
 char word[9] = "Holberton";
 {
-for (int i = 0; i < 9; i++)
+int i = 0;
+for (i; i < 9; i++)
 _putchar(word[i]);
 }
 _putchar(10);
