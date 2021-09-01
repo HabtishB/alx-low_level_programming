@@ -12,7 +12,7 @@ if (c > 0)
 {
 _putchar('+');
 return (1);
-} 
+}
 else if (c == 0)
 {
 _putchar('0');
