@@ -1,14 +1,14 @@
 #include "main.h"
 /**
- *main-check the code for ALX students
+ *print_alphabet- prints all the alphabets of english in one line
  *
- *Return: always returns zero
+ *Return: always returns none
  */
 
 void print_alphabet(void)
 {
 char a = 'a';
-for (; a < 'z'; a++)
+for (; a <= 'z'; a++)
 _putchar(a);
 _putchar('\n');
 }
