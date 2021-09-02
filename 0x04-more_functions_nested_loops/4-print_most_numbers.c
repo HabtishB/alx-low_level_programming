@@ -6,11 +6,11 @@
  */
 void print_numbers(void)
 {
-int i = 0;
-while (i <= 9)
+int i = 48;
+while (i <= 57)
 {
-if (i != 2 && i !=4)
-_putchar('0' + i);
+if (i != 50 && i != 52)
+_putchar(i);
 i++;
 }
 _putchar('\n');
