@@ -2,7 +2,7 @@
 /**
  * main- prints fizz buzz.
  *
- * Returns: 0.
+ * Return: 0.
 */
 
 int main(void)
@@ -25,9 +25,11 @@ else if (j % 5 == 0)
 printf("Buzz");
 }
 else
-{   
+{
 printf("%d", j);
 }
+if (j < 100)
+printf(" ");
 j++;
 }
 printf("\n");
