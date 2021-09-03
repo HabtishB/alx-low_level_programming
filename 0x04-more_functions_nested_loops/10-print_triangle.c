@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_trianble- prints a triangle.
+ * print_triangle- prints a triangle.
  * @size: value of an integer
  *
  * Return: none.
@@ -16,7 +16,7 @@ else
 {
 for (j = 0; j < size; j++)
 {
-for (i = (size-1); i >= 0; i--)
+for (i = (size - 1); i >= 0; i--)
 {
 if (i <= j)
 _putchar('#');
