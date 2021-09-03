@@ -3,7 +3,7 @@
  * print_diagonal- prints a diagonal
  * @n: value of an integer
  *
- * Returns: none.
+ * Return: none.
 */
 
 void print_diagonal(int n)
@@ -20,8 +20,8 @@ for (j = 0; j < n; j++)
 {
 if (j == i)
 {
-_putchar('\\')
-_putchar('$')
+_putchar('\\');
+_putchar('$');
 break;
 }
 else
