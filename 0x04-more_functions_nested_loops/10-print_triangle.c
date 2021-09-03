@@ -1,20 +1,20 @@
 #include "main.h"
 /**
  * print_trianble- prints a triangle.
- *@size: value of an integer
+ * @size: value of an integer
  *
- * Returns: none.
+ * Return: none.
 */
 
 void print_triangle(int size)
 {
 int i;
-int j = 0;
+int j;
 if (size <= 0)
 _putchar('\n');
 else
 {
-  for (; j < size; j++)
+for (j = 0; j < size; j++)
 {
 for (i = (size-1); i >= 0; i--)
 {
