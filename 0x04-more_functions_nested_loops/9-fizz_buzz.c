@@ -7,7 +7,7 @@
 
 int main(void)
 {
-int j = 0;
+int j = 1;
 while (j <= 100)
 {
 if (j < 3)
