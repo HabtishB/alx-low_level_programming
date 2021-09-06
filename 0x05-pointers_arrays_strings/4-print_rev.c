@@ -22,6 +22,7 @@ len++
 cs++;
 }
 
+c = len;
 for (c = len - 1; c >= 0; c--)
 {
 _putchar(*(s + c));
