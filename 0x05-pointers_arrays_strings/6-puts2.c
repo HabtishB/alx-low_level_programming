@@ -24,7 +24,7 @@ j++;
 
 for (i = 0; i <= j; i++)
 {
-if (i % 2 == 2)
+if (i % 2 == 0)
 {
 _putchar(s[i]);
 }
