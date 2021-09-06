@@ -28,8 +28,6 @@ for (i = len - 1; i >= 0; i--)
 {
 rev[j] = s[i];
 j++;
-if(j == len - 1)
-  rev[j+1] = '0';
 }
 
 for (i = 0; i <= len - 1; i++)
