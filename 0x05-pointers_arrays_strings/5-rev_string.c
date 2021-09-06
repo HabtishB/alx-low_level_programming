@@ -17,10 +17,9 @@ int j = 0;
 int len;
 char rev[1000];
 
-while (*s)
+while (s[i] != 0)
 {
 i++;
-s++;
 }
 
 len = i;
