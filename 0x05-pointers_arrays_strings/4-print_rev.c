@@ -18,7 +18,7 @@ char *cs = s;
 
 while (*cs)
 {
-len++
+len++;
 cs++;
 }
 
