@@ -26,7 +26,7 @@ for (i = 0; i <= j; i++)
 {
 if (i % 2 == 2)
 {
-_putchar(str[i]);
+_putchar(s[i]);
 }
 _putchar('\n');
 }
