@@ -28,7 +28,9 @@ for (i = j / 2; i <= j; i++)
 {
 _putchar(s[i]);
 }
+}
 else
+{
 for (i = (j + 1) / 2; i < j; i++)
 {
 _putchar(s[i]);
