@@ -1,20 +1,20 @@
 #include "main.h"
 
 /**
- * _strcmp- copies from one to the other
+ * reverse_array- reverses the array
  * @a: is a pointer to an integer
  * @n: is the value of an integer
  *
- * Return: returns the reversed string
+ * Return: returns nothing
  */
 
 void reverse_array(int *a, int n)
 {
 
 int j = 0;
-int i = n;
+int i = n - 1;
 
-while (a[i] >= 0 && a[j] < n)
+while (a[i] >= 0 && a[j] < n / 2)
 {
 int tmp;
 tmp = a[j];
