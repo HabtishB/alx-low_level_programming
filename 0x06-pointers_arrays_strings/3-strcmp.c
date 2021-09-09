@@ -4,7 +4,7 @@
  * _strcmp- copies from one to the other
  * @s1: is the destination string
  * @s2: is the source string
- * 
+ *
  * Return: returns the concatenated string
  */
 
