@@ -10,9 +10,8 @@
  * Return: returns the pointer to copied character
  */
 
-char *_memcpy(char *dest, char*src, unsigned int n)
+char *_memcpy(char *dest, char *src, unsigned int n)
 {
-
 int i;
 int j;
 while (n > 0)
