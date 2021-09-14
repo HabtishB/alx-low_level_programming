@@ -1,10 +1,9 @@
 #include "main.h"
 
-
 /**
  * _strspn- finds the length of a prefix substring
- * @s: pointer to a string
- * @c: byte to check
+ * @s: a pointer to a string
+ * @accept: the bytes to be returned
  *
  * Return: returns the number of bytes from accept
  */
