@@ -23,5 +23,5 @@ return (s + i);
 i++;
 }
 
-return (NULL)
+return (NULL);
 }
