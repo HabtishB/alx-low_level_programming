@@ -9,7 +9,7 @@
  * Return: returns the number of bytes from accept
  */
 
-char *_strspn(char *s, char *accept)
+unsigned int _strspn(char *s, char *accept)
 {
 
 unsigned int i, j, gotit, checking;
@@ -29,7 +29,7 @@ gotit++;
 checking = 1;
 }
 }
-if (checker == 0)
+if (checking == 0)
 return (gotit);
 i++;
 }
