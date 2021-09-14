@@ -15,6 +15,7 @@ char *_strspn(char *s, char *accept)
 unsigned int i, j, gotit, checking;
 
 gotit = 0;
+i = 0;
 
 while (s[i] >= '\0')
 {
