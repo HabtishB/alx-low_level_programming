@@ -13,7 +13,7 @@ int _strlen(char *s);
 
 int main(int argc, char *argv[])
 {
-int n1, n2;
+int n1, n2, mul;
 
 if (argc != 3)
 
@@ -34,7 +34,8 @@ n2 = 0;
 else
 n2 = convert2int(argv[2]);
 
-printf("%d\n", n1 * n2);
+mul = n1 *n2;
+printf("%d\n", mul);
 
 return (0);
 }
@@ -59,7 +60,7 @@ return (size);
 }
 
 /**
- * _convert2int- coverts a string into an integer
+ * convert2int- coverts a string into an integer
  * @s: string
  *
  * Return: integer value
