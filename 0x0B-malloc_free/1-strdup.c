@@ -12,6 +12,9 @@ char *_strdup(char *str)
 char *array;
 unsigned int i, size = 0;
 
+if (str == NULL)
+return (NULL);
+
 for (i = 0; str[i]; i++)
 {
 size++;
@@ -19,7 +22,7 @@ size++;
 
 array = (char *)malloc((size + 1) * sizeof(char));
 
-if (size == 0 || str == NULL)
+if (size == 0 || array == NULL)
 return (NULL);
 
 for (i = 0; i < size; i++)
