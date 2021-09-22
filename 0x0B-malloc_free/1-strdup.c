@@ -10,7 +10,7 @@
 char *_strdup(char *str)
 {
 char *array;
-int i, size = 0;
+unsigned int i, size = 0;
 
 while (*str)
 {
