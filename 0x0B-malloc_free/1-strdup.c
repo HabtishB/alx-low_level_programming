@@ -25,7 +25,7 @@ array = (char *)malloc((size + 1) * sizeof(char));
 if (size == 0 || array == NULL)
 return (NULL);
 
-for (i = 0; i < size; i++)
+for (i = 0; str[i]; i++)
 array[i] = str[i];
 
 array[size] = '\0';
