@@ -16,7 +16,7 @@ int i, j;
 if (width < 1 || height < 1)
 return (NULL);
 
-matrix = malloc(height * sizeof(int));
+matrix = malloc(height * sizeof(int *));
 
 if (matrix == NULL)
 return (NULL);
