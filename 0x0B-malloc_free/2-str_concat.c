@@ -31,11 +31,17 @@ array = (char *)malloc((size1 + size2 + 1) * sizeof(char));
 if (array == NULL)
 return (NULL);
 
+if (s1 != NULL)
+{
 for (i = 0; s1[i]; i++)
 array[i] = s1[i];
+}
 
+if (s2 != NULL)
+{
 for (j = 0; s2[j]; j++)
 array[size1 + j] = s2[j];
+}
 
 array[size1 + size2] = '\0';
 return (array);
