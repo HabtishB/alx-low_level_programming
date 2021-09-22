@@ -12,7 +12,7 @@ char *_strdup(char *str)
 char *array;
 unsigned int i, size = 0;
 
- for (i = 0; str[i]; i++)
+for (i = 0; str[i]; i++)
 {
 size++;
 }
@@ -25,6 +25,6 @@ return (NULL);
 for (i = 0; i < size; i++)
 array[i] = str[i];
 
-array[size - 1] = '\0';
+array[size] = '\0';
 return (array);
 }
