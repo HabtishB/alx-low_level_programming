@@ -22,7 +22,7 @@ size++;
 
 array = (char *)malloc((size + 1) * sizeof(char));
 
-if (size == 0 || array == NULL)
+if (size == 1 || array == NULL)
 return (NULL);
 
 for (i = 0; str[i]; i++)
