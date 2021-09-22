@@ -23,8 +23,8 @@ if (s2 == NULL)
 size2 = _strlen(s2);
 else
 size2 = 0;
-
-int size = size1 + size2;
+int size;
+size = size1 + size2;
 
 array = (char *)malloc((size + 1) * sizeof(char));
 
