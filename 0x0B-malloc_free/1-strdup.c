@@ -12,10 +12,9 @@ char *_strdup(char *str)
 char *array;
 unsigned int i, size = 0;
 
-while (*str)
+ for (i = 0; str[i]; i++)
 {
 size++;
-str++;
 }
 
 array = (char *)malloc((size + 1) * sizeof(char));
