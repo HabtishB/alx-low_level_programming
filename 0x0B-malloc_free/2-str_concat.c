@@ -23,10 +23,8 @@ if (s2 == NULL)
 size2 = _strlen(s2);
 else
 size2 = 0;
-int size;
-size = size1 + size2;
 
-array = (char *)malloc((size + 1) * sizeof(char));
+array = (char *)malloc((size1 + size2 + 1) * sizeof(char));
 
 if (array == NULL)
 return (NULL);
@@ -37,7 +35,7 @@ array[i] = s1[i];
 for (j = 0; s2[j]; j++)
 array[size1 + j] = s2[j];
 
-array[size] = '\0';
+array[size1 + size2] = '\0';
 return (array);
 }
 
