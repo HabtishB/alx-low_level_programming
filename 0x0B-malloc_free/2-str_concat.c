@@ -1,4 +1,5 @@
 #include "main.h"
+int _strlen(char *s);
 
 /**
  * str_concat- concatenates two strings
@@ -11,33 +12,52 @@
 char *str_concat(char *s1, char *s2)
 {
 char *array;
-unsigned int i, j, k = 0, size1 = 1, size2 = 1;
+unsigned int i, j, size1 = 0, size2 = 0;
+
+if (s1 == NULL)
+size1 = _strlen(s1);
+else
+size1 = 0;
 
 if (s2 == NULL)
-return (NULL);
-
-for (i = 0; s1[i]; i++)
-size1++;
-
-for (j = 0; s2[j]; j++)
-size2++;
+size2 = _strlen(s2);
+else
+size2 = 0;
 
 int size = size1 + size2;
 
-array = (char *)malloc(size * sizeof(char));
+array = (char *)malloc((size + 1) * sizeof(char));
 
-if (size == 1 || array == NULL)
+if (array == NULL)
 return (NULL);
 
 for (i = 0; s1[i]; i++)
-{
-array[k] = s1[i];
-k++;
+array[i] = s1[i];
+
+for (j = 0; s2[j]; j++)
+array[size1 + j] = s2[j];
+
+array[size] = '\0';
+return (array);
 }
 
-for (j = 0; s2[j]; j++, k++)
-array[k] = s2[j];
+/**
+ * _strlen- prints out the length of the specified string
+ * @s: a string pointer
+ *
+ * Return: returns the length
+ */
 
-array[k + 1] = '\0';
-return (array);
+int _strlen(char *s)
+{
+int i = 0;
+int  size = 0;
+
+while (s[i])
+{
+size++;
+i++;
+}
+
+return (size);
 }
