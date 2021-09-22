@@ -12,14 +12,16 @@ int _strlen(char *s);
 char *str_concat(char *s1, char *s2)
 {
 char *array;
-unsigned int i, j, size1 = 0, size2 = 0;
+unsigned int i, j, size1, size2;
+size1 = 0;
+size2 = 0;
 
-if (s1 == NULL)
+if (s1 != NULL)
 size1 = _strlen(s1);
 else
 size1 = 0;
 
-if (s2 == NULL)
+if (s2 != NULL)
 size2 = _strlen(s2);
 else
 size2 = 0;
