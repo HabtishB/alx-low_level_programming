@@ -19,7 +19,7 @@ size++;
 
 array = (char *)malloc((size + 1) * sizeof(char));
 
-if (size == 0 || array == NULL)
+if (size == 0 || str == NULL)
 return (NULL);
 
 for (i = 0; i < size; i++)
