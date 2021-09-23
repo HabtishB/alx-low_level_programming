@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * malloc_checked -
+ * malloc_checked -allocates memory to a variable
  * @b: an integer value
  *
  * Return: returns nothing
