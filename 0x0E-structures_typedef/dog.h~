@@ -1,0 +1,8 @@
+#ifndef _dog_
+#define _dog_
+#define struct dog
+{
+  char *name;
+  float age;
+  char *owner;
+};
