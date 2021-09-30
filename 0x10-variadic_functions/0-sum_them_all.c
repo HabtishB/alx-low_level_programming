@@ -1,7 +1,7 @@
 #include "variadic_functions.h"
 
 /**
- * sum_them_all - adds all the arguements received 
+ * sum_them_all - adds all the arguements received
  * @n: unsigned int
  * ...: additional number of arguements
  *
@@ -15,10 +15,10 @@ va_list ap;
 int i, sum = 0;
 
 va_start(ap, n);
-for(i = 0; (unsigned int)i < n; i++)
+for (i = 0; (unsigned int)i < n; i++)
 sum += va_arg(ap, int);
 
 va_end(ap);
 
-return sum;
+return (sum);
 }
