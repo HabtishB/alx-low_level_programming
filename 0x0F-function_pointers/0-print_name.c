@@ -10,7 +10,8 @@
 
 void print_name(char *name, void (*f)(char *))
 {
-if (!f)
-return;
+if (name && f)
+{
 (*f)(name);
+}
 }
