@@ -2,8 +2,8 @@
 
 /**
  * print_all - prints all types of arguements
- * @Format: type of arguement
- * 
+ * @format: type of arguement
+ *
  * Return: void
  */
 
@@ -23,7 +23,6 @@ while (format && format[n])
 {
 if  (n == (i - 1))
 separator = "";
-
 switch (format[n])
 {
 case 'c':
@@ -37,7 +36,6 @@ break;
 case 'i':
 printf("%d%s", va_arg(ap, int), separator);
 break;
-
 case 's':
 str = va_arg(ap, char *);
 if (str == NULL)
@@ -45,7 +43,6 @@ str = "(nil)";
 printf("%s%s", str, separator);
 break;
 }
- 
 n++;
 }
 printf("\n");
