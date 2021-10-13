@@ -25,12 +25,12 @@ if (*head == NULL)
 else
 {
 listint *tmp = *head;
-while (*tmp->next == NULL)
+while (*tmp->next != NULL)
 {
 *tmp = tmp->next;
 }
 
 tmp->next = new;
-
+}
 return (new);
 }
