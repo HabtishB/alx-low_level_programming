@@ -8,19 +8,21 @@
  *Return: returns the new node
  */
 
-listint_t *get_nodeint_at_index(listint_t **head, unsigned int n)
+listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
 {
+listint_t *curr;
 unsigned int i;
 i = 0;
 
-while (head != NULL)
+curr = head;
+while (curr)
 {
 if (i == index)
 {
-return (head);
+return (curr);
 }
-head = head->next;
+curr = curr->next;
 i++;
 }
-return (NULL);
+return (curr);
 }
