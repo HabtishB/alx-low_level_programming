@@ -3,7 +3,7 @@
 /**
  *get_nodeint_at_index - adds a new node at the end
  *@head: head of the linked list
- *@n: integer
+ *@index: integer
  *
  *Return: returns the new node
  */
