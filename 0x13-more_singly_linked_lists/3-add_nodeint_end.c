@@ -24,10 +24,10 @@ if (*head == NULL)
 
 else
 {
-listint *tmp = *head;
-while (*tmp->next != NULL)
+listint_t *tmp = *head;
+while (tmp->next != NULL)
 {
-*tmp = tmp->next;
+tmp = tmp->next;
 }
 
 tmp->next = new;
