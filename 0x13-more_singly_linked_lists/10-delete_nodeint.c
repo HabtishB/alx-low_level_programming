@@ -14,7 +14,7 @@ listint_t *current;
 listint_t *next;
 unsigned int i = 0;
 
-if (!head || !(head))
+if (!head || !(*head))
 return (1);
 
 current = *head;
