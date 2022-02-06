@@ -2,8 +2,8 @@
 
 /**
  * hash_djb2 - creates a hash with the djb2 algorithm
- * @str - key to create a hash
- * Return - the generated hash
+ * @str: key to create a hash
+ * Return:  the generated hash
  */
 
 unsigned long int hash_djb2(const unsigned char *str)
